@@ -217,11 +217,17 @@ index d12f91b..ebb6707 100644
       <section>
         <h2>commit id</h2>
         <ul>
-          <li>every commit has a 40 hex digits SHA1 hash identifying it</li>
+          <li>every commit has a 40 hex digits SHA1 hash</li>
           <li>e.g. 09e07c98c3d7d4b49a9755218033f55840a398c4, often abbreviated to the first 7 characters (09e07c9)</li>
           <li>Git will accept abbreviated hashes if they are unambiguous and at least 4 characters long</li>
           <li>the hash is built over the commit metadata (author, date, message), complete repository tree and hash of the parent commit</li>
           <li>(merge commits have more than one parent)</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>commit id</h2>
+        <ul>
           <li>a commit ID therefore specifies a complete repository, including history, at a specific point in time</li>
           <li>changing anything will produce a completely different hash</li>
         </ul>
